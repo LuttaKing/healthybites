@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "803402045731",
+    "project_id": "healthybites-aaab6",
+    "storage_bucket": "healthybites-aaab6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803402045731:android:1faa242b0ceb037fb09496",
+        "android_client_info": {
+          "package_name": "com.denilson.healthybites"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803402045731-okedkb0qvd5um7pev6iobv4g0vi0kd2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.denilson.healthybites",
+            "certificate_hash": "89bb16a052d0aa238076f311cfc27ac63ac2e560"
+          }
+        },
+        {
+          "client_id": "803402045731-cfok303h6vk1qmolg0veo49ph1mg7nd3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQKdElnlhQ1QE8eiVFxPHm_kMluX9m6Lg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803402045731-cfok303h6vk1qmolg0veo49ph1mg7nd3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

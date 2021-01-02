@@ -1,0 +1,80 @@
+name: healthybites
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.0
+  flutter_svg: ^0.19.1
+  carousel_slider: ^2.3.1
+  widget_circular_animator: ^0.1.5+1
+  line_awesome_flutter: ^1.0.1
+  firebase_auth: ^0.18.1+2
+  google_sign_in: ^4.5.4
+  flutter_webview_plugin: ^0.3.11
+  show_up_animation: ^1.0.2
+  fluttertoast: ^7.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# The following section is specific to Flutter.
+flutter:
+
+
+  uses-material-design: true
+  assets:
+   - assets/image1.jpg
+   - assets/image2.jpg
+   - assets/image3.jpg
+   - assets/image4.jpg
+   - assets/image6.jpg
+   - assets/image7.jpg
+   - assets/image8.jpg
+   - assets/prof.jpg
+   - assets/logo.svg
+   - assets/cake.png
+   - assets/chicken.png
+   - assets/burger.png
+   - assets/tucos.png
+   - assets/guacamole.png
+   - assets/Fattoush_Salad.png
+   - assets/beef.png
+   - assets/egg.png
+   - assets/onion.png
+   - assets/tomato.png
+   - assets/pepper.png
+
+  fonts: 
+     - family: Castoro
+       fonts:
+         - asset: font/Castoro-Regular.ttf
+     - family: Nunito
+       fonts:
+         - asset: font/Nunito-Regular.ttf
+     - family: Ptmono
+       fonts:
+         - asset: font/PTMono-Regular.ttf
+     - family: Padauk
+       fonts:
+         - asset: font/Padauk-Regular.ttf
+     - family: Lora
+       fonts:
+         - asset: font/Lora-VariableFont_wght.ttf
+     - family: Garamond
+       fonts:
+         - asset: font/EBGaramond-VariableFont_wght.ttf
+     - family: Overpass
+       fonts:
+         - asset: font/Overpass-Regular.ttf
