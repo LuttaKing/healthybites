@@ -28,12 +28,7 @@ Future<String> signInWithGoogle(BuildContext context) async {
     final User currentUser = _auth.currentUser;
     assert(user.uid == currentUser.uid);
       tost('Logging you in');
-   
-    print('SUCCESS: $user');
      
-
-//user.uid
-//updateProfile(user.displayName,user.email,user.photoURL,context);
  Navigator.push(context,
                                MaterialPageRoute(
                                  builder: (context) => HomePage(),

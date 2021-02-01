@@ -2,7 +2,6 @@ import 'dart:ui';
 import 'package:healthybites/Home.dart';
 import 'package:healthybites/authPages/loginWidgets.dart';
 import 'package:healthybites/common/colors.dart';
-//import 'package:fridayrents/homeScreen/HomePage.dart';
 import 'package:widget_circular_animator/widget_circular_animator.dart';
 import 'package:flutter/material.dart';
 
@@ -37,8 +36,7 @@ class _AuthBottomSheetState extends State<AuthBottomSheet> {
           child: Container(
             padding:
             EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
-     //   height: MediaQuery.of(context).size.height * 0.70,
-        decoration: BoxDecoration(
+        decoration:const BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.all(Radius.circular(40)),
         ),
@@ -85,7 +83,7 @@ class _AuthBottomSheetState extends State<AuthBottomSheet> {
                 child: RaisedButton(
                   color: orange,
                   shape: RoundedRectangleBorder(
-                    borderRadius: new BorderRadius.circular(35.0),
+                    borderRadius: BorderRadius.circular(35.0),
                   ),
                   child: Text(
                widget.signIn ? "Sign In" :     'Sign Up',
@@ -100,7 +98,7 @@ class _AuthBottomSheetState extends State<AuthBottomSheet> {
                 ),
               ),
             ),
-             SizedBox(height: 100,),
+           const  SizedBox(height: 100,),
           ],
         ),
       ),

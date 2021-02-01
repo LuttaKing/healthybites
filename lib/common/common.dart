@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 Widget bottomButton(String text,BuildContext context){
     return Padding(
-      padding:  EdgeInsets.all(18.0),
+      padding:const  EdgeInsets.all(18.0),
       child: SizedBox(
                   height:MediaQuery.of(context).size.height*0.07,
                 width: MediaQuery.of(context).size.width*0.6,

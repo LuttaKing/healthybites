@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
               padding: const EdgeInsets.all(7.0),
               child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                IconButton(icon: Icon(Icons.search,color: Colors.black,size: 35,),onPressed: (){
+               IconButton(icon: Icon(Icons.search,color: Colors.black,size: 35,),onPressed: (){
                   Navigator.pop(context);
                 },),
                 
@@ -46,16 +46,16 @@ class _HomePageState extends State<HomePage> {
         ),
                 ],),
 
-                CircleAvatar(radius: 21.5,backgroundImage: AssetImage("assets/prof.jpg",),),
+              const  CircleAvatar(radius: 21.5,backgroundImage: AssetImage("assets/prof.jpg",),),
 
               ],),
             ),
 
-            SizedBox(height: 16,),
+           const SizedBox(height: 16,),
              Padding(
               padding: const EdgeInsets.only(left:5.0,bottom: 3),
               child: RichText(
-            text: TextSpan(
+            text:const TextSpan(
                 text: 'Healthy',
                 style: TextStyle(fontFamily: 'Castoro',
                 color: Colors.black, fontSize: 29,letterSpacing: 1),
@@ -79,7 +79,7 @@ class _HomePageState extends State<HomePage> {
                     ),),
             ),
           foodColumn(context),
-          SizedBox(height: 40,),
+        const  SizedBox(height: 40,),
           Center(
             child: SizedBox(
                   height: 50,
@@ -87,7 +87,7 @@ class _HomePageState extends State<HomePage> {
                   child: RaisedButton(
                     color: orange,
                     shape: RoundedRectangleBorder(
-                      borderRadius: new BorderRadius.circular(15.0),
+                      borderRadius: BorderRadius.circular(15.0),
                     ),
                     child: Text(
                       'Load More',
@@ -99,7 +99,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
           ),
-              SizedBox(height: 40,),
+            const  SizedBox(height: 40,),
           ],),),
         ),
       ),

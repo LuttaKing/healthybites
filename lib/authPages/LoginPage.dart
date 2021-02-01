@@ -51,10 +51,11 @@ class _LoginPageState extends State<LoginPage> {
               bottom: 140,
               left: 33,
               child: Row(children: [
-                ClipRRect(borderRadius: BorderRadius.circular(16),child: Container(color: Colors.white,height: 3,width: 130,)),
+                ClipRRect(borderRadius: BorderRadius.circular(16),
+                child: Container(color: Colors.white,height: 3,width: 130,)),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Container(child: Text("OR",style: TextStyle(color: Colors.white,fontFamily: "Ptmono"),),color: Colors.grey.withOpacity(0.2),),
+                  child: Container(child: Text("OR",style: const TextStyle(color: Colors.white,fontFamily: "Ptmono"),),color: Colors.grey.withOpacity(0.2),),
                 ),
                 ClipRRect(borderRadius: BorderRadius.circular(16),child: Container(color: Colors.white,height: 3,width: 130,)),
               ],)),
@@ -72,7 +73,7 @@ socialAuthButton(LineAwesomeIcons.apple),
                   width: 79,
                   child: SvgPicture.asset("assets/logo.svg",
                       semanticsLabel: 'Logo'))),
-          Positioned(
+        const  Positioned(
               top: 120,
               left: 50,
               child: Text('A new type of\nexperience.',

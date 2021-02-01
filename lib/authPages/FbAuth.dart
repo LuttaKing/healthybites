@@ -8,13 +8,12 @@ import 'package:healthybites/common/common.dart';
 final FirebaseAuth _auth = FirebaseAuth.instance;
 
 
-String your_client_id = "3127597384034848";
-String your_redirect_url ="https://www.facebook.com/connect/login_success.html";
+const String your_client_id = "3127597384034848";
+const String your_redirect_url ="https://www.facebook.com/connect/login_success.html";
 
 
 
 loginWithFacebook(BuildContext context) async{
- // await Firebase.initializeApp();
 String result = await Navigator.push(context,
   MaterialPageRoute(
       builder: (context) => CustomWebView(
@@ -29,7 +28,6 @@ String result = await Navigator.push(context,
     final facebookAuthCred =FacebookAuthProvider.credential(result);
     final user =await _auth.signInWithCredential(facebookAuthCred);
       tost('Logging you in...');
-    print('SUCCESS: $user');
   
   // updateProfile(user.additionalUserInfo.profile['name'],'',user.additionalUserInfo.profile['picture']['data']['url'],context);
     Navigator.push(context,
@@ -37,7 +35,6 @@ String result = await Navigator.push(context,
                                  builder: (context) => HomePage(),
                                )); 
   } catch (e) {
-    print('ERROR: $e');
 tost('Error ocuured $e',Colors.red);
 
   }
